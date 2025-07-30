@@ -1,4 +1,4 @@
-import { FaGithub, FaLinkedin, FaInstagram, FaFacebook } from "react-icons/fa";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -9,7 +9,7 @@ const Footer = () => {
           href="mailto:tuemail@ejemplo.com"
           className="text-lg text-gray-400 hover:text-cyan-400 transition"
         >
-          tuemail@ejemplo.com
+         joserauldiaz779@gmail.com
         </a>
 
         {/* Derechos */}
@@ -20,7 +20,7 @@ const Footer = () => {
         {/* Redes sociales */}
         <div className="flex gap-8 text-gray-400 text-2xl">
           <a
-            href="https://github.com/tuusuario"
+            href="https://github.com/RaulD32"
             target="_blank"
             aria-label="GitHub"
             rel="noopener noreferrer"
@@ -29,7 +29,7 @@ const Footer = () => {
             <FaGithub />
           </a>
           <a
-            href="https://linkedin.com/in/tuusuario"
+            href="https://www.linkedin.com/in/jos%C3%A9-ra%C3%BAl-d%C3%ADaz-1258422b4/"
             target="_blank"
             aria-label="LinkedIn"
             rel="noopener noreferrer"
@@ -37,7 +37,7 @@ const Footer = () => {
           >
             <FaLinkedin />
           </a>
-          <a
+          {/* <a
             href="https://instagram.com/tuusuario"
             target="_blank"
             aria-label="Instagram"
@@ -54,7 +54,7 @@ const Footer = () => {
             className="hover:text-cyan-400 transition"
           >
             <FaFacebook />
-          </a>
+          </a> */}
         </div>
       </div>
 

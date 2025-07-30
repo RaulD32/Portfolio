@@ -1,9 +1,9 @@
-import { FaGithub, FaLinkedin, FaInstagram, FaFacebook } from 'react-icons/fa'
+import { FaGithub, FaLinkedin } from 'react-icons/fa'
 import { MdEmail } from 'react-icons/md'
 
 const Hero = () => {
   return (
-    <section className="min-h-[85vh] bg-neutral-950 text-white flex items-start justify-center px-6 pt-10 sm:pt-35">
+    <section className="min-h-[85vh] bg-neutral-950 text-white flex items-start justify-center px-6 pt-10 sm:pt-25">
       <div className="max-w-7xl w-full grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-16 items-center">
 
         {/* Texto + Imagen */}
@@ -18,7 +18,7 @@ const Hero = () => {
           <div className="flex justify-center md:hidden">
             <div className="w-48 h-48 sm:w-64 sm:h-64 rounded-full bg-gray-700/20 border-4 border-cyan-400 overflow-hidden shadow-xl">
               <img
-                src="/tu-foto.jpg"
+                src="/RD.jpg"
                 alt="Raúl Díaz"
                 className="w-full h-full object-cover"
               />
@@ -39,26 +39,26 @@ const Hero = () => {
             <a href="mailto:raul.diaz@ejemplo.com" className="hover:text-cyan-400 transition" title="Correo">
               <MdEmail />
             </a>
-            <a href="https://github.com/tuusuario" target="_blank" className="hover:text-cyan-400 transition" title="GitHub">
+            <a href="https://github.com/RaulD32" target="_blank" className="hover:text-cyan-400 transition" title="GitHub">
               <FaGithub />
             </a>
-            <a href="https://linkedin.com/in/tuusuario" target="_blank" className="hover:text-cyan-400 transition" title="LinkedIn">
+            <a href="https://www.linkedin.com/in/jos%C3%A9-ra%C3%BAl-d%C3%ADaz-1258422b4/" target="_blank" className="hover:text-cyan-400 transition" title="LinkedIn">
               <FaLinkedin />
             </a>
-            <a href="https://instagram.com/tuusuario" target="_blank" className="hover:text-cyan-400 transition" title="Instagram">
+            {/* <a href="https://instagram.com/tuusuario" target="_blank" className="hover:text-cyan-400 transition" title="Instagram">
               <FaInstagram />
             </a>
             <a href="https://facebook.com/tuusuario" target="_blank" className="hover:text-cyan-400 transition" title="Facebook">
               <FaFacebook />
-            </a>
+            </a> */}
           </div>
         </div>
 
         {/* Imagen en desktop */}
         <div className="hidden md:flex justify-center md:justify-end">
-          <div className="w-64 lg:w-80 h-64 lg:h-80 rounded-full bg-gray-700/20 border-4 border-cyan-400 overflow-hidden shadow-xl">
+          <div className="w-72 h-72 lg:w-96 lg:h-96 xl:w-[28rem] xl:h-[28rem] rounded-full bg-gray-700/20 border-4 border-cyan-400 overflow-hidden shadow-xl">
             <img
-              src="/tu-foto.jpg"
+              src="/RD.jpg"
               alt="Raúl Díaz"
               className="w-full h-full object-cover"
             />

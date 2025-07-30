@@ -19,14 +19,14 @@ const Navbar = () => {
               </a>
             </li>
           ))}
-          <li>
+          {/* <li>
             <button
               className="hover:text-white transition-colors duration-300 px-2 py-1 rounded-md hover:bg-gray-700"
               aria-label="Modo oscuro (solo visual)"
             >
               <SunIcon className="w-7 h-7" />
             </button>
-          </li>
+          </li> */}
         </ul>
 
         {/* Botón hamburguesa móvil pequeño y discreto */}
