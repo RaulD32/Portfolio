@@ -9,7 +9,7 @@ const Navbar = () => {
       <nav className="max-w-7xl mx-auto px-4 md:px-6 py-4 md:py-6 flex items-center justify-between">
         
         <ul className="hidden md:flex gap-16 text-lg font-semibold items-center justify-center flex-1">
-          {['home', 'about', 'skills', 'projects', 'contact'].map((item) => (
+          {['Inicio', 'Sobre mí', 'Habilidades', 'Proyectos', 'Contáctame'].map((item) => (
             <li key={item}>
               <a
                 href={`#${item}`}
