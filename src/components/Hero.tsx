@@ -1,5 +1,5 @@
 import { FaGithub, FaLinkedin } from 'react-icons/fa'
-import { MdEmail } from 'react-icons/md'
+
 
 const Hero = () => {
   return (
@@ -36,9 +36,9 @@ const Hero = () => {
 
           {/* Redes sociales */}
           <div className="flex justify-center md:justify-start gap-6 items-center text-gray-300 text-2xl">
-            <a href="mailto:raul.diaz@ejemplo.com" className="hover:text-cyan-400 transition" title="Correo">
+            {/* <a href="mailto:joserauldiaz779@gmail.com" className="hover:text-cyan-400 transition" title="Correo">
               <MdEmail />
-            </a>
+            </a> */}
             <a href="https://github.com/RaulD32" target="_blank" className="hover:text-cyan-400 transition" title="GitHub">
               <FaGithub />
             </a>
