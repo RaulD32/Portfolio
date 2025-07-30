@@ -89,7 +89,7 @@ export default function SkillsSection() {
   return (
     <section className="py-16 px-4 sm:px-6 lg:px-16 bg-neutral-950 text-white" id="skills">
       <h2 className="text-3xl sm:text-4xl font-bold text-cyan-400 text-center mb-12">
-        Habilidades y Herramientas
+        Tecnologías con las que he trabajado
       </h2>
       <div className="grid gap-10 md:grid-cols-2 xl:grid-cols-3 max-w-6xl mx-auto">
         {sections.map((section) => (
