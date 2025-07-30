@@ -9,7 +9,7 @@ const Navbar = () => {
       <nav className="max-w-7xl mx-auto px-4 md:px-6 py-4 md:py-6 flex items-center justify-between">
         
         <ul className="hidden md:flex gap-16 text-lg font-semibold items-center justify-center flex-1">
-          {['Inicio', 'Sobre mí', 'Habilidades', 'Proyectos', 'Contáctame'].map((item) => (
+          {['Sobre mí', 'Tecnologías', 'Proyectos'].map((item) => (
             <li key={item}>
               <a
                 href={`#${item}`}
@@ -54,7 +54,7 @@ const Navbar = () => {
           className="flex flex-col gap-2 px-6 pb-4 bg-gradient-to-b from-neutral-800 via-neutral-900 to-black rounded-b-md
             shadow-lg text-sm font-medium text-gray-300 items-center border-t border-gray-700"
         >
-          {['home', 'about', 'skills', 'projects', 'contact'].map((item, i, arr) => (
+          {['Sobre mí', 'Tecnologías', 'Proyectos'].map((item, i, arr) => (
             <li
               key={item}
               className={`w-full text-center ${
@@ -70,14 +70,7 @@ const Navbar = () => {
               </a>
             </li>
           ))}
-          <li>
-            <button
-              className="px-4 py-2 rounded-md mx-auto block transition-transform duration-150 hover:text-white hover:bg-gray-700 hover:scale-110"
-              aria-label="Modo oscuro (solo visual)"
-            >
-              <SunIcon className="w-6 h-6 hover:drop-shadow-[0_0_6px_rgba(255,255,255,0.7)] transition-shadow duration-300" />
-            </button>
-          </li>
+          
         </ul>
       </div>
     </header>

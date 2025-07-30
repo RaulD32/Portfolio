@@ -56,7 +56,7 @@ const projects = [
 export default function ProjectsSection() {
   return (
     <section
-      id="projects"
+      id="Proyectos"
       className="py-16 px-4 sm:px-6 lg:px-16 bg-neutral-950 text-white"
     >
       <h2 className="text-3xl sm:text-4xl font-bold text-cyan-400 text-center mb-12">
