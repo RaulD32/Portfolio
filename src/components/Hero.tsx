@@ -61,7 +61,7 @@ const Hero = () => {
           <div className="hidden md:flex justify-center md:justify-end">
             <div className="w-72 h-72 lg:w-96 lg:h-96 xl:w-[28rem] xl:h-[28rem] rounded-full bg-gray-700/20 border-4 border-cyan-400 overflow-hidden shadow-xl">
               <img
-                src="/RD.jpg"
+                src="/RD2.jpg"
                 alt="Raúl Díaz"
                 className="w-full h-full object-cover"
               />
