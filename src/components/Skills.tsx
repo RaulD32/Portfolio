@@ -87,7 +87,7 @@ export default function SkillsSection() {
   ];
 
   return (
-    <section className="py-16 px-4 sm:px-6 lg:px-16 bg-neutral-950 text-white" id="Tecnologías">
+    <section className="pt-18 py-16 px-4 sm:px-6 lg:px-16 bg-neutral-950 text-white" id="Tecnologías">
       <h2 className="text-3xl sm:text-4xl font-bold text-cyan-400 text-center mb-12">
         Tecnologías con las que he trabajado
       </h2>

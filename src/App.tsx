@@ -9,7 +9,7 @@ const App = () => {
   return (
     <>
       <Navbar />
-      <main>
+      <main className="pt-20 md:pt-24 bg-neutral-950">
         <Hero />
         <About />
         <Skills />
