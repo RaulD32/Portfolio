@@ -16,8 +16,20 @@ import {
 
 const projects = [
   {
+    title: "Plataforma tipo Indeed",
+    description: "Publicación de ofertas laborales y búsqueda de empleos.",
+    icons: [<FaAngular />, <SiDotnet />, <FaDocker />],
+    image: "/projects/Job.jpg",
+  },
+  {
+    title: "Sistema de gestión de gimnasio de yoga y pilates",
+    description: "Gestión de clases, membresías y pagos.",
+    icons: [<FaVuejs />, <SiTailwindcss />, <SiNestjs />, <SiMysql />],
+    image: "/projects/Pilates.jpg",
+  },
+  {
     title: "Sistema de gestión de estadías",
-    description: "Gestor de estadías para la Universidad Tecnológica de Cancún.",
+    description: "Gestor de estadías profesionales para la Universidad Tecnológica de Cancún.",
     icons: [<FaLaravel />, <SiTailwindcss />, <SiMysql />],
     image: "/projects/SGE.jpg",
   },
@@ -31,25 +43,13 @@ const projects = [
     title: "Ecommerce de mascotas",
     description: "Accesorios y alimentos para mascotas.",
     icons: [<FaReact />, <SiExpress />, <SiTailwindcss />, <SiMysql />],
-    image: "/portfoliordia/public/project3.png",
-  },
-  {
-    title: "Sistema de gestión de gimnasio de yoga y pilates",
-    description: "gestión de clases, membresías y pagos.",
-    icons: [<FaVuejs />, <SiTailwindcss />, <SiNestjs />, <SiMysql />],
-    image: "/projects/Pilates.jpg",
-  },
-  {
-    title: "Plataforma tipo Indeed",
-    description: "Publicación de ofertas laborales y búsqueda de empleos.",
-    icons: [<FaAngular />, <SiDotnet />, <FaDocker />],
-    image: "/portfoliordia/public/project5.png",
+    image: "/projects/KK.jpg",
   },
   {
     title: "Sistema de análisis de ingresos",
     description: "Machine Learning de análisis y predicciones de ingresos y egresos mediante datasets.",
     icons: [<FaVuejs />, <FaPython />, <SiMysql />],
-    image: "/portfoliordia/public/project6.png",
+    image: "/projects/ML.jpg",
   },
 ];
 

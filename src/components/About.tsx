@@ -11,7 +11,7 @@ const About = () => {
           <div className="bg-neutral-800/60 p-4 rounded-xl shadow-sm border border-neutral-700 hover:border-cyan-400 transition">
             <h3 className="text-base font-semibold mb-2">¿Quién soy?</h3>
             <p className="text-gray-300 text-sm leading-relaxed text-justify">
-              Soy <span className="font-semibold text-white">Desarrollador de software</span> con experiencia en aplicaciones web usando <span className="text-cyan-300">React, Vue, .NET y Laravel</span>. Me enfoco en diseñar soluciones funcionales, modernas y escalables.
+              Soy <span className="font-semibold text-white">Desarrollador de software</span> con experiencia en aplicaciones web usando <span className="text-cyan-300">React, Angular, Vue, .NET y Laravel</span>. Me enfoco en diseñar soluciones funcionales, modernas y escalables.
             </p>
           </div>
 
@@ -35,7 +35,7 @@ const About = () => {
           <div className="bg-neutral-800/60 p-4 rounded-xl shadow-sm border border-neutral-700 hover:border-cyan-400 transition">
             <h3 className="text-base font-semibold mb-2">Tecnologías clave</h3>
             <p className="text-gray-300 text-sm leading-relaxed text-justify">
-              Trabajo con <span className="text-cyan-300">React, Vue, .NET, Laravel, Express y NestJS</span>. Me interesa escribir código limpio, mantener buenas prácticas y adaptarme a nuevas herramientas.
+              Trabajo con <span className="text-cyan-300">React, Vue, Angular, .NET, Laravel, Express y NestJS</span>. Me interesa escribir código limpio, mantener buenas prácticas y adaptarme a nuevas herramientas.
             </p>
           </div>
         </div>
